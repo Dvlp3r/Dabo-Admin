@@ -56,13 +56,13 @@
                         <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                     </li>
                     <li class="selected">
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Merchants</a>
+                        <a href="merchantindex.html"><i class="fa fa-dashboard fa-fw"></i>Merchants</a>
                     </li>
                     <li class="selected">
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Collections</a>
+                        <a href="collections.html"><i class="fa fa-dashboard fa-fw"></i>Collections</a>
                     </li>
                     <li class="selected">
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Products</a>
+                        <a href="products.html"><i class="fa fa-dashboard fa-fw"></i>Products</a>
                     </li>
                 </ul>
                 <!-- end side-menu -->
@@ -89,19 +89,19 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="alert alert-success text-center">
-                        <i class="fa  fa-beer fa-3x"></i>&nbsp;<b>27 </b>Sales Today
+                    <div class="alert alert-danger text-center">
+                        <i class="fa  fa-money fa-3x"></i>&nbsp;<b>27 </b>Sales Today
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="alert alert-info text-center">
-                        <i class="fa fa-rss fa-3x"></i>&nbsp;<b>1,00</b> New Users Today
+                    <div class="alert alert-danger text-center">
+                        <i class="fa fa-user fa-3x"></i>&nbsp;<b>1,00</b> New Users Today
 
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="alert alert-warning text-center">
-                        <i class="fa  fa-pencil fa-3x"></i>&nbsp;<b>15 </b> New Products Today
+                    <div class="alert alert-danger text-center">
+                        <i class="fa  fa-gift fa-3x"></i>&nbsp;<b>15 </b>Products Uploaded
                     </div>
                 </div>
                 <!--end quick info section -->
@@ -109,44 +109,10 @@
 
             <div class="row">
                 <div class="col-lg-8">
-
-
-
-                    <!--Area chart example -->
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i>Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-
-                    </div>
-                    <!--End area chart example -->
                     <!--Simple table example -->
-                    <div class="panel panel-primary">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i>Simple Table Example
+                            <i class="fa fa-bar-chart-o fa-fw"></i>Sales Index
                             <div class="pull-right">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -154,14 +120,11 @@
                                         <span class="caret"></span>
                                     </button>
                                     <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
+                                        <li><a href="#">User Index</a>
                                         </li>
-                                        <li><a href="#">Another action</a>
+                                        <li><a href="#">Merchant Index</a>
                                         </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
+                                        <li><a href="#">Collection Index</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -175,42 +138,58 @@
                                         <table class="table table-bordered table-hover table-striped">
                                             <thead>
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>Date</th>
-                                                    <th>Time</th>
-                                                    <th>Amount</th>
+                                                    <th>Product Name</th>
+                                                    <th>Price</th>
+                                                    <th>Status</th>
+                                                    <th>Merchant</th>
+                                                    <th>Date of Order</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>3326</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:29 PM</td>
+                                                    <td>Shirt</td>
                                                     <td>$321.33</td>
+                                                    <td>Shipping</td>
+                                                    <td>Toasted</td>
+                                                    <td>10/21/2013</td>
+
+
                                                 </tr>
                                                 <tr>
                                                     <td>3325</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:20 PM</td>
                                                     <td>$234.34</td>
+                                                    <td>Paid</td>
+                                                    <td>Amazon</td>
+                                                    <td>10/21/2013</td>
+
+
                                                 </tr>
                                                 <tr>
                                                     <td>3324</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:03 PM</td>
                                                     <td>$724.17</td>
+                                                    <td>Paid</td>
+                                                    <td>D Luxe Boutique</td>
+                                                    <td>10/21/2013</td>
+
+
                                                 </tr>
                                                 <tr>
                                                     <td>3323</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:00 PM</td>
                                                     <td>$23.71</td>
+                                                    <td>Paid</td>
+                                                    <td>Amazon</td>
+                                                    <td>10/21/2013</td>
+
+
                                                 </tr>
                                                 <tr>
-                                                    <td>3322</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:49 PM</td>
+                                                    <td>Macbook (6)</td>
                                                     <td>$8345.23</td>
+                                                    <td>Paid</td>
+                                                    <td>Amazon</td>
+                                                    <td>10/21/2013</td>
+
+
                                                 </tr>
 
 
@@ -230,43 +209,43 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body yellow">
-                            <i class="fa fa-bar-chart-o fa-3x"></i>
+                    <div class="panel panel-danger text-center no-boder">
+                        <div class="panel-body red">
+                            <i class="fa fa-user fa-3x"></i>
                             <h3>20,741 </h3>
                         </div>
                         <div class="panel-footer">
-                            <span class="panel-eyecandy-title">Daily User Visits
+                            <span class="panel-eyecandy-title">Total Users
                             </span>
                         </div>
                     </div>
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body blue">
-                            <i class="fa fa-pencil-square-o fa-3x"></i>
+                    <div class="panel panel-danger text-center no-boder">
+                        <div class="panel-body red">
+                            <i class="fa fa-money fa-3x"></i>
                             <h3>2,060 </h3>
                         </div>
                         <div class="panel-footer">
-                            <span class="panel-eyecandy-title">Pending Orders Found
+                            <span class="panel-eyecandy-title">Total Sales
                             </span>
                         </div>
                     </div>
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body green">
-                            <i class="fa fa fa-floppy-o fa-3x"></i>
-                            <h3>20 GB</h3>
+                    <div class="panel panel-danger text-center no-boder">
+                        <div class="panel-body red">
+                            <i class="fa fa fa-gift fa-3x"></i>
+                            <h3>20 </h3>
                         </div>
                         <div class="panel-footer">
-                            <span class="panel-eyecandy-title">New Data Uploaded
+                            <span class="panel-eyecandy-title">Products Added
                             </span>
                         </div>
                     </div>
-                    <div class="panel panel-primary text-center no-boder">
+                    <div class="panel panel-danger text-center no-boder">
                         <div class="panel-body red">
-                            <i class="fa fa-thumbs-up fa-3x"></i>
+                            <i class="fa fa-user-plus fa-3x"></i>
                             <h3>2,700 </h3>
                         </div>
                         <div class="panel-footer">
-                            <span class="panel-eyecandy-title">New User Registered
+                            <span class="panel-eyecandy-title">Friends Daboed
                             </span>
                         </div>
                     </div>
@@ -281,7 +260,7 @@
 
             </div>
 
-            
+
 
 
 
@@ -303,7 +282,7 @@
     <script src="assets/plugins/morris/raphael-2.1.0.min.js"></script>
     <script src="assets/plugins/morris/morris.js"></script>
     <script src="assets/scripts/dashboard-demo.js"></script>
-
+    <script src="https://use.fontawesome.com/b47ee3aa28.js"></script>
 </body>
 
 </html>

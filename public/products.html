@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DABO | World's Greatest Gifting Application</title>
+    <!-- Core CSS - Include with every page -->
+    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/main-style.css" rel="stylesheet" />
+    <!-- Page-Level CSS -->
+    <link href="assets/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
+   </head>
+<body>
+    <!--  wrapper -->
+    <div id="wrapper">
+        <!-- navbar top -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+            <!-- navbar-header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                      DABO
+                </a>
+            </div>
+            <!-- end navbar-header -->
+            <!-- navbar-top-links -->
+
+
+        </nav>
+        <!-- end navbar top -->
+
+        <!-- navbar side -->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <!-- sidebar-collapse -->
+            <div class="sidebar-collapse">
+                <!-- side-menu -->
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <!-- user image section-->
+                        <div class="user-section">
+                          <br>
+                            <center><img src="http://daboapp.com/assets/images/icon100png100x100-113.png" alt="" /></center>
+                          <br>
+                        </div>
+                        <!--end user image section-->
+                    </li>
+                    <li class="selected">
+                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+                    </li>
+                    <li class="selected">
+                        <a href="merchantindex.html"><i class="fa fa-dashboard fa-fw"></i>Merchants</a>
+                    </li>
+                    <li class="selected">
+                        <a href="collections.html"><i class="fa fa-dashboard fa-fw"></i>Collections</a>
+                    </li>
+                    <li class="selected">
+                        <a href="products.html"><i class="fa fa-dashboard fa-fw"></i>Products</a>
+                    </li>
+                </ul>
+                <!-- end side-menu -->
+            </div>
+            <!-- end sidebar-collapse -->
+        </nav>
+        <!-- end navbar side -->
+        <!--  page-wrapper -->
+        <div id="page-wrapper">
+
+            <div class="row">
+                <!-- Page Header -->
+                <div class="col-lg-12">
+                    <h1 class="page-header">Products</h1>
+                </div>
+                <!--End Page Header -->
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <!--Simple table example -->
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i>Products
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        Actions
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a data-toggle="modal" data-target="#addproduct" href="#">Add Products</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Merchant Name</th>
+                                                    <th>Product Name</th>
+                                                    <th>Price</th>
+                                                    <th>Quantity</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Toy's R Us</td>
+                                                    <td>Current (Paid)</td>
+                                                    <td>14</td>
+                                                    <td><button><i class="fa fa-pencil" aria-hidden="true"></i></button><button><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Ross</td>
+                                                    <td>DUE</td>
+                                                    <td>40</td>
+                                                    <td><button><i class="fa fa-pencil" aria-hidden="true"></i></button><button><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+
+
+                                                </tr>
+                                                <tr>
+                                                    <td>D luxe Boutique</td>
+                                                    <td>Current (Paid)</td>
+                                                    <td>20</td>
+                                                    <td><button><i class="fa fa-pencil" aria-hidden="true"></i></button><button><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Armani</td>
+                                                    <td>Current (Paid)</td>
+                                                    <td>12</td>
+                                                    <td><button><i class="fa fa-pencil" aria-hidden="true"></i></button><button><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Apple</td>
+                                                    <td>Current (Paid)</td>
+                                                    <td>25</td>
+                                                    <td><button><i class="fa fa-pencil" aria-hidden="true"></i></button><button><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+
+
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!--End simple table example -->
+                    <div class="panel panel-danger col-md-4">
+                        <div class="panel-heading">
+                            Product Name
+                        </div>
+                        <div class="panel-body">
+                            <center><p><h1>4 Sold</h1></p></center>
+                            <img src="http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=jBFkr3" class="img-responsive" alt="" />
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" name="button" data-toggle="modal" data-target="#viewcollection">Edit Product</button>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger col-md-4">
+                        <div class="panel-heading">
+                            Product Name
+                        </div>
+                        <div class="panel-body">
+                            <center><p><h1>4 Sold</h1></p></center>
+                            <img src="http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=jBFkr3" class="img-responsive" alt="" />
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" name="button" data-toggle="modal" data-target="#viewcollection">Edit Product</button>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger col-md-4">
+                        <div class="panel-heading">
+                            Product Name
+                        </div>
+                        <div class="panel-body">
+                            <center><p><h1>4 Sold</h1></p></center>
+                            <img src="http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=jBFkr3" class="img-responsive" alt="" />
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" name="button" data-toggle="modal" data-target="#viewcollection">Edit Product</button>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger col-md-4">
+                        <div class="panel-heading">
+                            Product Name
+                        </div>
+                        <div class="panel-body">
+                            <center><p><h1>4 Sold</h1></p></center>
+                            <img src="http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=jBFkr3" class="img-responsive" alt="" />
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" name="button" data-toggle="modal" data-target="#viewcollection">Edit Product</button>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger col-md-4">
+                        <div class="panel-heading">
+                            Product Name
+                        </div>
+                        <div class="panel-body">
+                            <center><p><h1>4 Sold</h1></p></center>
+                            <img src="http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=jBFkr3" class="img-responsive" alt="" />
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" name="button" data-toggle="modal" data-target="#viewcollection">Edit Product</button>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger col-md-4">
+                        <div class="panel-heading">
+                            Product Name
+                        </div>
+                        <div class="panel-body">
+                            <center><p><h1>4 Sold</h1></p></center>
+                            <img src="http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=jBFkr3" class="img-responsive" alt="" />
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" name="button" data-toggle="modal" data-target="#viewcollection">Edit Product</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="panel panel-danger text-center no-boder">
+                        <div class="panel-body red">
+                            <i class="fa fa-user-plus fa-3x"></i>
+                            <h3>200 </h3>
+                        </div>
+                        <div class="panel-footer">
+                            <span class="panel-eyecandy-title">Merchants Today
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger text-center no-boder">
+                        <div class="panel-body red">
+                            <i class="fa fa-money fa-3x"></i>
+                            <h3>2,060 </h3>
+                        </div>
+                        <div class="panel-footer">
+                            <span class="panel-eyecandy-title">Total Sales
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger text-center no-boder">
+                        <div class="panel-body red">
+                            <i class="fa fa fa-gift fa-3x"></i>
+                            <h3>14,000 </h3>
+                        </div>
+                        <div class="panel-footer">
+                            <span class="panel-eyecandy-title">Total Products
+                            </span>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- end page-wrapper -->
+
+    </div>
+    <!-- end wrapper -->
+<!-- Modal -->
+<!-- Modal -->
+<div id="addproduct" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add a Merchant</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+            <label>Merchant Name</label>
+            <input class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label>Product Name</label>
+            <input class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label>Quantity</label>
+            <input class="form-control" placeholder="">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Create</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<!-- Modal -->
+<!-- <div id="paymentmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add a Merchant</h4>
+      </div>
+      <div class="modal-body">
+        <img src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/80957/images/80957_56a85c2d374cbd5118a213f2e7176332.png" alt="" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+
+
+
+<!-- Modal -->
+<!-- Modal -->
+
+
+
+
+
+    <!-- Core Scripts - Include with every page -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="assets/plugins/pace/pace.js"></script>
+    <script src="assets/scripts/siminta.js"></script>
+    <!-- Page-Level Plugin Scripts-->
+    <script src="assets/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/plugins/morris/morris.js"></script>
+    <script src="assets/scripts/dashboard-demo.js"></script>
+    <script src="https://use.fontawesome.com/b47ee3aa28.js"></script>
+</body>
+
+</html>
